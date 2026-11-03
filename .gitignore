@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
+*.joblib
+results/**
+!results/README.md
+!results/main/
+!results/unique/
+!results/main/metrics.json
+!results/unique/metrics.json
