@@ -1,0 +1,104 @@
+[
+  {
+    "outcome": "FP",
+    "row_index": 6869,
+    "phishing_probability": 0.9155983884585761,
+    "threshold": 0.3736713942439253,
+    "logit": 2.383991332471242,
+    "decision_boundary_logit": -0.5164983765146137,
+    "intercept": -1.4095890756382583,
+    "features": [
+      {
+        "feature": "SSLfinal_State",
+        "raw_value": -1,
+        "logit_contribution": 2.057725859635986
+      },
+      {
+        "feature": "Prefix_Suffix",
+        "raw_value": -1,
+        "logit_contribution": 1.2280935662019794
+      },
+      {
+        "feature": "Links_in_tags",
+        "raw_value": -1,
+        "logit_contribution": 0.6743027273012835
+      },
+      {
+        "feature": "having_IP_Address",
+        "raw_value": 1,
+        "logit_contribution": -0.43968107405468765
+      },
+      {
+        "feature": "SFH",
+        "raw_value": -1,
+        "logit_contribution": 0.36812472609462177
+      },
+      {
+        "feature": "Links_pointing_to_page",
+        "raw_value": 0,
+        "logit_contribution": 0.29425359194383505
+      },
+      {
+        "feature": "DNSRecord",
+        "raw_value": 1,
+        "logit_contribution": -0.2761252209689229
+      },
+      {
+        "feature": "URL_of_Anchor",
+        "raw_value": 0,
+        "logit_contribution": -0.26334461848290946
+      }
+    ]
+  },
+  {
+    "outcome": "FN",
+    "row_index": 4415,
+    "phishing_probability": 0.0030545140142349838,
+    "threshold": 0.3736713942439253,
+    "logit": -5.7880755892595275,
+    "decision_boundary_logit": -0.5164983765146137,
+    "intercept": -1.4095890756382583,
+    "features": [
+      {
+        "feature": "SFH",
+        "raw_value": 1,
+        "logit_contribution": -1.4785406865228559
+      },
+      {
+        "feature": "SSLfinal_State",
+        "raw_value": 1,
+        "logit_contribution": -1.2369805025162195
+      },
+      {
+        "feature": "Prefix_Suffix",
+        "raw_value": -1,
+        "logit_contribution": 1.2280935662019794
+      },
+      {
+        "feature": "Links_in_tags",
+        "raw_value": 1,
+        "logit_contribution": -0.8603415725083785
+      },
+      {
+        "feature": "popUpWidnow",
+        "raw_value": -1,
+        "logit_contribution": -0.7608323862540173
+      },
+      {
+        "feature": "having_Sub_Domain",
+        "raw_value": 1,
+        "logit_contribution": -0.6119402342862783
+      },
+      {
+        "feature": "DNSRecord",
+        "raw_value": -1,
+        "logit_contribution": 0.6049468668919882
+      },
+      {
+        "feature": "Links_pointing_to_page",
+        "raw_value": 1,
+        "logit_contribution": -0.5423139796693331
+      }
+    ]
+  }
+]

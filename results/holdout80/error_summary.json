@@ -1,0 +1,19 @@
+{
+  "validation_rows": 1191,
+  "errors": 83,
+  "threshold": 0.3736713942439253,
+  "FP": {
+    "count": 35,
+    "conflicting_label_rows": 13,
+    "probability_min": 0.3765971889645839,
+    "probability_max": 0.9155983884585761,
+    "median_distance_to_threshold": 0.2631409477310946
+  },
+  "FN": {
+    "count": 48,
+    "conflicting_label_rows": 18,
+    "probability_min": 0.0030545140142349838,
+    "probability_max": 0.29614624883795726,
+    "median_distance_to_threshold": 0.21032439794489147
+  }
+}

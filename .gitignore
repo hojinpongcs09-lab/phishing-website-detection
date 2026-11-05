@@ -5,7 +5,11 @@ __pycache__/
 *.joblib
 results/**
 !results/README.md
-!results/main/
-!results/unique/
-!results/main/metrics.json
-!results/unique/metrics.json
+!results/holdout80/
+!results/holdout80/plots/
+!results/nested_main/
+!results/baseline/
+!results/final_comparison/
+!results/**/*.json
+!results/**/*.csv
+!results/**/*.png

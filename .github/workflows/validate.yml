@@ -11,7 +11,8 @@ jobs:
           cache: pip
       - run: pip install -r requirements.txt
       - run: python src/train.py
-      - run: python src/train.py --unique --output results/unique
+      - run: python src/baseline.py
+      - run: python src/train_nested80.py
       - uses: actions/upload-artifact@v4
         with:
           name: evaluation

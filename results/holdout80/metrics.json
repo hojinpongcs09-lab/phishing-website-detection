@@ -10,29 +10,31 @@
     "validation": 1191,
     "test": 1153
   },
+  "cv_folds": 5,
   "group_overlap": 0,
   "best_C": 100,
   "scaling": "StandardScaler()",
   "cv_average_precision": 0.9757945179198334,
   "threshold": 0.3736713942439253,
   "threshold_objective": "validation phishing F1; ties lower FPR",
-  "test": {
-    "accuracy": 0.9245446660884649,
-    "precision": 0.8674698795180723,
-    "recall": 0.9536423841059603,
-    "f1": 0.9085173501577287,
-    "fpr": 0.09428571428571429,
-    "roc_auc": 0.980534531693472,
-    "average_precision": 0.9736392662665926,
+  "validation": {
+    "accuracy": 0.9303106633081444,
+    "precision": 0.9372759856630825,
+    "recall": 0.9159369527145359,
+    "f1": 0.9264836138175376,
+    "fpr": 0.056451612903225805,
+    "roc_auc": 0.9764575447714818,
+    "average_precision": 0.9788912010047027,
     "confusion_matrix_labels_0_legitimate_1_phishing": [
       [
-        634,
-        66
+        585,
+        35
       ],
       [
-        21,
-        432
+        48,
+        523
       ]
     ]
-  }
+  },
+  "test_evaluated": false
 }
